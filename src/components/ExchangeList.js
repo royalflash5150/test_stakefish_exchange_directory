@@ -40,8 +40,8 @@ function ExchangeList() {
               list.map((item, idx) => (
                 <tr key={idx}>
                   <td className='border flex p-3 items-center'>
-                    <a href={`/detail?${item.}`}><img className="rounded" src={item.image} alt='logo'></img>
-                      <span className='p-2'>{item.name}</span></a>
+                    <img className="rounded" src={item.image} alt='logo'></img>
+                    <span className='p-2'>{item.name}</span>
                   </td>
                   <td className='border p-3'>{item.country}</td>
                   <td className='border p-3'>{item.url}</td>
