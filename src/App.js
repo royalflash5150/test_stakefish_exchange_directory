@@ -12,8 +12,8 @@ function App() {
           <Route exact path="/">
             <ExchangeList/>
           </Route>
-          <Route path="/detail">
-            <ExchangeDetail />
+          <Route path="/detail/:id">
+            <ExchangeDetail/>
           </Route>
         </Switch>
       </Router>
